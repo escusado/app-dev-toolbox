@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/nanoscroller.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/skin.css" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+
+          <a class="brand" href="#">Content Types</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+
+<!--               <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li> -->
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well">
+
+            <a href="#" class="btn btn-success btn-small">Add content_type <i class="icon-white icon-plus"></i></a>
+
+          </div><!--/.well -->
+        </div><!--/span-->
+
+        <div class="span10 content_type-wall">
+
+
+
+
+
+        </div><!--/span-->
+      </div><!--/row-->
+
+    </div><!--/.fluid-container-->
+
+    <script type="text/template" class="content_type-template">
+          <div class="content_type-table">
+            
+            <div class="header">
+              <input class="title" type="text" placeholder="Name">
+              <ul class="controls">
+                <li>
+                  <a href="#" class="btn btn-danger btn-ctrl"><i class="icon-white icon-remove"></i></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="body">
+              
+              <div class="grid-container clearfix">
+
+                <div class="info">
+                  
+                </div>
+
+                <div class="col-mask">
+                  <ul class="col-header ">
+                    <li>
+                      <a href="#" class="btn btn-info btn-ctrl"><i class="icon-white icon-cog"></i></a>
+                      <input class="col-name" type="text" placeholder="Field name">
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-info btn-ctrl"><i class="icon-white icon-cog"></i></a>
+                      <input class="col-name" type="text" placeholder="Field name">
+                    </li>
+                    <li>
+                      <a href="#" class="btn btn-info btn-ctrl"><i class="icon-white icon-cog"></i></a>
+                      <input class="col-name" type="text" placeholder="Field name">
+                    </li>
+                  </ul>
+                </div>
+                <div class="add-new">
+                  <a href="#" class="btn btn-success btn-ctrl"><i class="icon-white icon-plus-sign"></i></a>
+                </div> 
+
+                <div class="clearfix"></div>
+
+                <div class="row-container">
+                  <div class="row-mask">
+                    <ul class="row-header">
+                      <li>
+                        <a href="#" class="btn btn-danger btn-ctrl"><i class="icon-white icon-remove-sign"></i></a>
+                      </li>
+                      <li>
+                        <a href="#" class="btn btn-danger btn-ctrl"><i class="icon-white icon-remove-sign"></i></a>
+                      </li> 
+                      <li>
+                        <a href="#" class="btn btn-danger btn-ctrl"><i class="icon-white icon-remove-sign"></i></a>
+                      </li>                                                        
+                    </ul>
+                  </div>   
+
+                  <div class="add-new">
+                    <a href="#" class="btn btn-success btn-ctrl"><i class="icon-white icon-plus-sign"></i></a>
+                  </div>                
+                </div>
+
+                <div class="grid nano">
+                  <div class="content">
+                    <div class="row">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                    </div>
+                    <div class="row">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                    </div>
+                    <div class="row">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                      <input class="field" type="text" placeholder="Value">
+                    </div>
+                  </div>
+                </div>
+
+              </div> <!-- .grid-container -->
+
+            </div>
+
+          </div>
+
+    </script>
+
+    <script src="js/neon.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/jquery.nanoscroller.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/content_types/ContentTypesWallClass.js"></script>
+    <script src="js/content_types/ContentTypeClass.js"></script>
+    <script src="js/content_types/GridEditorClass.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
