@@ -5,6 +5,9 @@ Class('ContentTypeClass')({
 
       @render()
 
+      # if initData?
+      #   @setEditionMode()
+
     render: ->
       @element = @template
 
