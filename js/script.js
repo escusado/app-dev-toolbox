@@ -2,7 +2,10 @@
 
   $(document).ready(function() {
     new ContentTypesWallClass('.content_type-wall');
-    return new ThemeSwitch('.style-switch');
+    new ThemeSwitch('.style-switch');
+    return $('.nano').nanoScroller({
+      alwaysVisible: true
+    });
   });
 
 }).call(this);
