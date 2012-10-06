@@ -1,7 +1,8 @@
 (function() {
 
   $(document).ready(function() {
-    return new ContentTypesWallClass('.content_type-wall');
+    new ContentTypesWallClass('.content_type-wall');
+    return new ThemeSwitch('.style-switch');
   });
 
 }).call(this);

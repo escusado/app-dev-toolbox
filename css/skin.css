@@ -1,6 +1,9 @@
 body {
-  font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
-  background: #171f26 url("../img/noise.png") repeat; }
+  font-family: 'Droid Sans', Helvetica, Arial, sans-serif; }
+  body.night {
+    background: #171f26 url("../img/noise.png") repeat; }
+  body.day {
+    background: #d5dee5 url("../img/noise.png") repeat; }
 
 .content_type-table {
   background-color: rgba(255, 255, 255, 0.02);

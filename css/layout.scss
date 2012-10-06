@@ -1,13 +1,18 @@
-ul,li{list-style: none;}
+ul,
+li{ list-style: none; }
 
 body {padding-top: 60px; padding-bottom: 40px;}
 
-
+.navbar {
+  .controls {float: right;}
+}
 
 .sidebar-nav { padding: 9px 0;}
 
-.btn-ctrl {
-  font-size: 0; line-height: 0; padding: 0; line-height: 0;}
+.btn-ctrl {font-size: 0; line-height: 0; padding: 0; line-height: 0;}
+.btn-ctrl-med {
+  @extend .btn-ctrl;
+  padding: 5px;}
 
 .content_type-table { margin: 10px; float: left; overflow: hidden; 
   .header { height: 25px; padding: 5px;
